@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Komi Serge Innocent, GDG Miage gi">
+    <meta name="description" content="La plus grande conférence sur les technologies Google en Côte d'Ivoire organisée par les communautés GDG Abidjan, GDG Agitel et GDG MIAGE GI! Nous parlerons de Web,Android du Cloud avec des experts du domaine">
+    <meta name="keywords" content="event, gdg, gde, devfest, devfestabj2015,google, programming, android, chrome, polymer, developers, Abidjan, cloud">
+
+    <link rel="canonical" href="http://devfestabj.github.io/">
+    <title>GDG DevFest Abidjan 2015 &bull; 19 Décembre, Groupe Cerco</title>
+
+    <!-- Social: Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@GDG_MiageGi">
+    <meta name="twitter:title" content="GDG DevFest Abidjan 2015 &bull; 19 Décembre, Groupe Cerco">
+    <meta name="twitter:description" content="La plus grande conférence sur les technologies Google en Côte d'Ivoire organisée par les communautés GDG Abidjan, GDG Agitel et GDG MIAGE GI! Nous parlerons de Web,Android du Cloud avec des experts du domaine">
+    <meta name="twitter:image:src" content="http://devfestabj.github.io/images/seo/seo.jpg">
+
+
+    <!-- Social: Facebook / Open Graph -->
+    <meta property="og:title" content="GDG DevFest Abidjan 2015 &bull; 19 Décembre au Groupe Cerco" />
+    <meta property="og:site_name" content="GDG DevFest Abidjan 2015 &bull; 19 Décembre au Groupe Cerco" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://devfestabj.github.io/" />
+    <meta property="og:image" content="http://devfestabj.github.io/images/seo/seo.jpg" />
+    <meta property="og:description" content="La plus grande conférence sur les technologies Google en Côte d'Ivoire organisée par les communautés GDG Abidjan, GDG Agitel et GDG MIAGE GI! Nous parlerons de Web,Android du Cloud avec des experts du domaine" />
+
+    <!-- Chrome for Android theme color -->
+    <meta name="theme-color" content="#00BCD4">
+    <!-- Web Application Manifest -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="manifest" href="manifest.json">
+    <!-- Tile color for Win8 -->
+    <meta name="msapplication-TileColor" content="#00BCD4">
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Polymer Starter Kit">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Polymer Starter Kit">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+    <!-- Tile icon for Win8 (144x144) -->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild-->
+    <!-- build:js bower_components/webcomponentsjs/webcomponents-lite.min.js -->
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+    <!-- endbuild -->
+    <!-- will be replaced with elements/elements.vulcanized.html -->
+    <link rel="import" href="elements/elements.html">
+    <!-- endreplace-->
+</head>
+
+<body id="body" unresolved class="fullbleed layout vertical">
+    <span id="browser-sync-binding"></span>
+    <template is="dom-bind" id="app">
+        <app-data speakers="{{speakers}}" sessions="{{sessions}}" posts="{{posts}}" partners="{{partners}}" schedule="{{schedule}}"></app-data>
+        <paper-drawer-panel id="paperDrawerPanel" force-narrow>
+            <paper-header-panel drawer class="drawer" mode="seamed">
+                <paper-toolbar class="tall">
+                    <div class="top">
+                        <img class="logo" src="images/logo-white.svg" alt="GDG DevFest 2015">
+                    </div>
+                    <div class="bottom">
+                        <span class="typo-white">
+                            19 Décembre 2015
+                        </span>
+                        <span class="block typo-white">
+                            Abidjan, Côte d'Ivoire
+                        </span>
+                    </div>
+                </paper-toolbar>
+                <paper-menu class="list" attr-for-selected="data-route" selected="{{route}}" on-iron-select="onMenuSelect">
+                    <a data-route="#!/home" href="/">Accueil</a>
+                    <a data-route="#!/schedule" href="/schedule">Agenda</a>
+                    <a data-route="#!/speakers" href="/speakers">Speakers</a>
+                    <!-- <a data-route="contact" href="/contact">Contact</a> -->
+                </paper-menu>
+            </paper-header-panel>
+            <div class="scroll" main>
+                <!-- Main Content -->
+                <div class="content">
+                    <iron-pages attr-for-selected="data-route" selected="{{route}}">
+                        <section data-route="home">
+                            <hero-block class="section-shadow" hide-logo route="{{route}}">
+                                <div class="top-section hero">
+                                    <div class="layout vertical-horizontal">
+                                        <div class="flex center-content-xs">
+                                            <img class="logo" src="images/logo.svg" alt="GDG DevFest 2015">
+                                            <p class="dates bold">19 Décembre au Groupe Cerco</p>
+                                            <p class="description">La plus grande conférence sur les technologies Google en Côte d'Ivoire organisée par les communautés GDG Abidjan, GDG Agitel et GDG MIAGE GI! Nous parlerons de Web,Android du Cloud avec des experts du domaine</p>
+                                            <p class="slogan">Nous allons vous faire aimer le code!</p>
+                                            <div class="links layout horizontal align-pb-block">
+
+                                                <a href="https://www.facebook.com/events/1672375516369030/" target="_blank">
+                                                    <paper-button class="colorful" raised>
+                                                        Participer
+                                                    </paper-button>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="flex relative right-section">
+                                            <iron-image class="fit" src="images/cover.png" sizing="contain"></iron-image>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a
+                                target="_blank" onclick="ga('send', 'add-event-to-calendar', 'button', 'click');">
+                                    <paper-fab class="section-fab-right" icon="icons:event"></paper-fab>
+                                </a>
+                            </hero-block>
+                            <statistics-block></statistics-block>
+                            <featured-people people="{{speakers}}">
+                                <h4 class="heading">Nos Speakers</h4>
+                            </featured-people>
+                            <call-to-action></call-to-action>
+                            <photo-block></photo-block>
+                            <social-feed ></social-feed>
+                            <map-block></map-block>
+                            <logos-block logos-blocks="{{partners}}">
+                                <h4 class="heading">Partners</h4>
+                            </logos-block>
+                            <footer-block></footer-block>
+                        </section>
+
+                        <section data-route="schedule">
+                            <hero-block class="section-shadow container-before-atop bottom-tabs" style="background: #009688; color: #fff;">
+                                <div class="top-section">
+                                    <div class="title-wrapper layout horizontal">
+                                        <h3 class="self-end">Agenda</h3>
+                                    </div>
+                                </div>
+                            </hero-block>
+                            <schedule-block id="schedule-block" class="container-atop" schedule="{{schedule}}" sessions="{{sessions}}"></schedule-block>
+                            <footer-block></footer-block>
+                        </section>
+                        <section data-route="speakers">
+                            <hero-block class="section-shadow container-before-atop" style="background: #00BCD4; color: #fff;">
+                                <div class="top-section">
+                                    <div class="title-wrapper layout horizontal">
+                                        <h3 class="self-end">Speakers</h3>
+                                    </div>
+                                    <!-- <paper-fab class="section-fab-right" icon="social:share"></paper-fab> -->
+                                </div>
+                            </hero-block>
+                            <people-block id="people-block" class="container-atop" speakers="{{speakers}}" sessions="{{sessions}}"></people-block>
+                            <footer-block></footer-block>
+                        </section>
+
+                    </iron-pages>
+                </div>
+            </div>
+        </paper-drawer-panel>
+        <paper-toast id="caching-complete" class="toast" duration="6000" text="Caching complete! This app will work offline.">
+        </paper-toast>
+        <paper-dialog class="video-dialog fit" id="promo-video-dialog" with-backdrop modal entry-animation="scale-up-animation" exit-animation="fade-out-animation">
+            <paper-toolbar class="navbar-overlay fit">
+                <paper-icon-button icon="icons:arrow-back" on-tap="closeVideoCard"></paper-icon-button>
+                <div class="title text-left">GDG DevFest Abidjan 2015</div>
+            </paper-toolbar>
+            <div class="fullvideo-container fit">
+                <google-youtube id="promo-video" video-id="_yhIH9wb3hE" fluid="true" autohide="1" chromeless="true"></google-youtube>
+            </div>
+        </paper-dialog>
+        <platinum-sw-register auto-register clients-claim skip-waiting on-service-worker-installed="displayInstalledToast">
+            <platinum-sw-cache default-cache-strategy="networkFirst" precache-file="precache.json">
+            </platinum-sw-cache>
+        </platinum-sw-register>
+        <webfont-loader families="Roboto:100,200,400&subset=latin"></webfont-loader>
+    </template>
+    <!-- build:js scripts/app.js -->
+    <script src="scripts/app.js"></script>
+    <!-- endbuild-->
+</body>
+
+</html>

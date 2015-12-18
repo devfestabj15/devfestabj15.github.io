@@ -1,0 +1,496 @@
+[
+  {
+    "id": 1001,
+    "title": "Accueil et installation des participants",
+    "description": "Inscription et récupération de badges"
+  },
+  {
+    "id": 1002,
+    "title": "Photo de famille + Pause déjeuner",
+    "description": "Moment restaurationnnnnnnnnnnn!"
+  },
+  {
+    "id": 1003,
+    "title": "Mot de fin + Cocktail",
+    "description": "Yes!!! we did it!!!!!!!"
+  },
+  {
+    "id": 1004,
+    "title": "Morning coffee",
+    "description": "Coffeeeeeee!"
+  },
+  {
+    "id": 1005,
+    "title": "Lancement du GDG DevFest Abidjan 2015",
+    "description": "Début officiel de la conférence. Mots de bienvenue des organisateurs, sponsors et partenaires.",
+    "language": "fr",
+    "complexity": "",
+    "presentation": "",
+    "video": ""
+  },
+  {
+    "id": 1006,
+    "title": "Afterwork & Résautage",
+    "description": "",
+    "track": {
+        "title": "Quelque part..."
+    }
+  },
+  {
+    "id": 1007,
+    "title": "Grande Mess de fin : présentation des applications de domotique ",
+    "description": "En workshop, ils ont développé des programmes pour controller des équipements, ils vous en font la démo!",
+    "language": "FR",
+    "speakers": [1,2],
+    "complexity": "",
+    "presentation": "",
+    "video": ""
+  },
+  {
+    "id": 101,
+    "title": "Microcontroleurs : Application à la robotique",
+    "description": "Programmer un microcontrolleur pour allumer une LED ,Programmer un robot mobile avec un MICROCONTROLLEUR , Programmer un robot qui évite des obstacles et un robot danseur .",
+    "speakers": [1,2],
+    "language": "FR",
+    "complexity": "Beginner",
+    "video": "",
+    "tags": [
+        "IoT",
+        "Mobile", "robotique","domotique"
+    ]
+  },
+  {
+    "id": 102,
+    "title": "Microcontroleurs : Application à la robotique",
+    "description": "Venez apprendre à Programmer un microcontrolleur pour allumer une LED ,Programmer un robot mobile avec un MICROCONTROLLEUR , Programmer un robot qui évite des obstacles et un robot danseur .",
+    "speakers": [1,2],
+    "language": "FR",
+    "complexity": "Beginner",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "IoT",
+        "Mobile",
+	"robotique"
+    ]
+  },
+  {
+    "id": 103,
+    "title": "Réalisation d'un compteur set segments commandé par un bouton poussoir avec Arduino",
+    "description": "",
+    "speakers": [32],
+    "language": "FR",
+    "complexity": "Beginner",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Arduino",
+        "IoT", "robotique"
+    ]
+  },
+  {
+    "id": 104,
+    "title": "Power of Android Shell",
+    "description": "Android provides a set of not really well documented command line tools that are mainly used by system engineers for debugging and testing purposes. Available after entering 'adb shell', these tools can give you a lot of details about what is happening in the system and help with automation. <br/><br/>We'll see what is available in Android command line and <br/>- analyze system and sample apps with 'dumpsys', <br/>- find out how to check whether your service finishes normally and does not live forever, <br/>- mock battery level and charger state, <br/>- trigger account sychronization, <br/>- change system settings without a single line of UiAutomator code.",
+    "speakers": [4],
+    "language": "FR",
+    "complexity": "Intermediate",
+    "presentation": "https://speakerdeck.com/gdglviv/roman-mazur-power-of-android-shell",
+    "video": "",
+    "tags": [
+        "Android",
+        "Tools"
+    ]
+  },
+  {
+    "id": 105,
+    "title": "Hijacking notification actions - lets respond to your messages!",
+    "description": "Always wanted to implement automatic answer to your text messages/FB Messenger/Telegram and didn't want to implement whole client for this? <br/><br/>Wanted to call some action in any notification from your app without too much permissions (or root access)? <br/><br/>Here we go! I will show and explain how to hijack actions from any visible notification to any other app.",
+    "speakers": [5],
+    "language": "FR",
+    "complexity": "Intermediate",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Android"
+    ]
+  },
+  {
+    "id": 106,
+    "title": "Functional Programming on Android with Kotlin",
+    "description": "Presentation de la programmation fonctionnel et du langage kotlin. Avec les participants nous developperons une application Android avec Kotlin",
+    "speakers": [28],
+    "language": "FR",
+    "complexity": "Beginner",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Kotlin",
+        "android","mobile","programmation fonctionelle"
+    ]
+  },
+  {
+    "id": 107,
+    "title": "Angular2: Reasoning behind technical decisions",
+    "description": "Angular 2.0 is the next generation of platform that allows to develop complex web application with a blazing speed and simplicity. But for many developers, even those who have lot of Angular1 experience, there are still a lot of questions why Angular team decided to use TypeScript, strange templating syntax and other not very obvious decisions. During this talk we’ll try to give answers to these questions and dive little bit deeper in Angular 2.0 architecture. ",
+    "speakers": [7],
+    "language": "FR",
+    "complexity": "Beginner",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Web",
+        "AngularJS"
+    ]
+  },
+  {
+    "id": 108,
+    "title": "V8 under the hood",
+    "description": "What is happening inside V8 javascript engine - optimization, work, etc.",
+    "speakers": [8],
+    "language": "ru",
+    "complexity": "Intermediate",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Web",
+        "V8 Engine"
+    ]
+  },
+  {
+    "id": 109,
+    "title": "L'environnement connecté",
+    "description": "Présentation d'objets connectés qui interagissent avec le mobile grâce à la technologie BLE",
+    "speakers": [9],
+    "language": "FR",
+    "complexity": "Beginner",
+    "video": "",
+    "tags": [
+        "Cloud",
+        "Mobile",
+        "IoT"
+    ]
+  },
+  {
+    "id": 111,
+    "title": "New security model in Marshmallow",
+    "description": "Permissions on Android have always been an important area to consider when developing applications. Currently, users have awareness of these permissions, but no real control over them.<br/><br/>Android M comes with several breaking changes, related to Permissions. <br/><br/>In this presentation we will learn on how the new permission model introduced in Android M works, and how can we educate our users, so they can understand why are we asking for certain permission. ",
+    "speakers": [10],
+    "language": "FR",
+    "complexity": "Beginner",
+    "presentation": "https://speakerdeck.com/gdglviv/roman-herasymenko-android-m-security-model",
+    "video": "",
+    "tags": [
+        "Android",
+        "Marshmallow"
+    ]
+  },
+  {
+    "id": 112,
+    "title": "Du brainstorming à l'innovation...",
+    "description": "Présentation d'une technique pour trouver des idées et innover!",
+    "speakers": [11],
+    "language": "FR",
+    "complexity": "Beginner",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Entrepreneuriat",
+        "innovation"
+    ]
+  },
+  {
+    "id": 113,
+    "title": "Build extraordinary Apps with Firebase",
+    "description": "Créer des applications Web et mobiles qui stockent et synchronisent les données en temps réel avec Firebase.Ceci en mode connecté et déconnecté avec une reprise automatique de la synchronisation.",
+    "speakers": [23],
+    "language": "FR",
+    "complexity": "Intermediate",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Android",
+        "Firebase"
+    ]
+  },
+  {
+    "id": 114,
+    "title": "Continuous Delivery with Ease",
+    "description": "Do you create builds for your client frequently? Maybe every day? That’s good, because you can get feedback early and often… unless you do that manually, pushing APKs via mail or to some app testing platform via browser. Look back at the time spent on these tedious tasks. How would you feel if you could spend less time and do even more at the same time? I will show you, how easy it is to set things up, not to spend even a minute a day to create builds for your testers. We will look at all the requirements for that and we will go as far as enabling business people to decide when to publish new version of your amazing application literally with a push of a button.",
+    "speakers": [13],
+    "language": "FR",
+    "complexity": "Intermediate",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Android",
+        "CI"
+    ]
+  },
+  {
+    "id": 115,
+    "title": "Let's play JHipster!",
+    "description": "Live coding sur les possibilités du framework jhipster!!!",
+    "speakers": [14],
+    "language": "FR",
+    "complexity": "Intermediate",
+    "video": "",
+    "tags": [
+        "Web",
+        "spring-boot",
+	"angularJS"
+    ]
+  },
+  {
+    "id": 116,
+    "title": "Présentation de polymer",
+    "description": "présentation du framework de développement universel polymer",
+    "speakers": [15],
+    "language": "FR",
+    "complexity": "Intermediate",
+    "video": "",
+    "tags": [
+        "Web",
+        "Polymer"
+    ]
+  },
+  {
+    "id": 117,
+    "title": "Digital Marketing 101 : Adwords/Adsense",
+    "description": "Session 'awareness' à titre informatif sur les possibilités de Adwords pour les professionnels qui souhaitent se lancer dans le digital marketing, aussi tous ceux qui veulent ajouter une nouvelle palette de compétences; et sur les possibilités de Adsense pour les créateurs de contenu YouTube, Blogger ou autre site web. ",
+    "speakers": [18],
+    "language": "FR",
+    "complexity": "Intermediate",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Adwords",
+        "Adsense"
+    ]
+  },
+  {
+    "id": 118,
+    "title": "Entrepreneuriat et Développeurs Android Africain",
+    "description": "Entrepreneuriat et Développeurs Android Africain est un thème qui m'a été inspiré en observant l'écosystème des développeurs Android africain en général et Ivoirien en particulier. Mon constat est que nous avons des compétences,mais nous sommes mal canalisés. Au cours de cet exposé , je parlerai ,dans un premier temps de l'entreprenariat et du développeur africain . En second lieu ,je donnerai une leçon à suivre.",
+    "speakers": [17],
+    "language": "FR",
+    "complexity": "Beginner",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "entrepreneuriat"
+    ]
+  },
+  {
+    "id": 122,
+    "title": "Service Worker - Native Apps Experience For The Web",
+    "description": "Installing and updating apps, network interceptors and full cache management, push notifications and background updates. All these is now possible in Web apps with Service Worker! Even when the App is closed. Excited? Be the one to touch it first!",
+    "speakers": [20],
+    "language": "FR",
+    "complexity": "Intermediate",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Web",
+        "Service Worker"
+    ]
+  },
+  {
+    "id": 123,
+    "title": "Google WebRTC on Mobile",
+    "description": "WebRTC is a new milestone in the evolution of the web. This technology allows us to quickly create real-time communication applications. Altough its main target is web browsers, WebRTC is becoming a popular real time communication technology used on mobile. By using WebRTC you can develop your own peer-to-peer video chat in a short amount of time. Also, WebRTC is very flexible, you can make calls to another networks that using offer/answer model, for example SIP protocol. In this presentation you can gain in-depth insights about how to implement WebRTC on iOS and Android mobile devices for a native experience.",
+    "speakers": [21],
+    "language": "FR",
+    "complexity": "Intermediate",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Web",
+        "WebRTC"
+    ]
+  },
+  {
+    "id": 124,
+    "title": "Applications mobiles avec AngularJs et Ionic",
+    "description": "Dans cette session vous saurez comment developper une application mobile avec les technologie web utilisant le javascript. Nous verrons aussi comment a partir de ces technologie on peut avoir une meme experience utilisateur qu'avec les applications developpez de manière native",
+    "speakers": [19],
+    "language": "FR",
+    "complexity": "Beginner",
+    "video": "",
+    "tags": [
+        "Web",
+        "AngularJS","ionic"
+    ]
+  },
+  {
+    "id": 125,
+    "title": "[Keynote] Quoi de neuf chez Google?",
+    "description": "Découvrez les nouveautés de Google avec nos trois speakers présents au dernier I/O",
+    "speakers": [23,15,29],
+    "language": "fr",
+    "complexity": "Beginner",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Keynote"
+    ]
+  },
+  {
+    "id": 126,
+    "title": "Google Solve for X comes to Ukraine",
+    "description": "<i>The world is not limited by IQ. We are limited by creativity and bravery.</i> - Astro Teller</br></br>Learn about the new GDG-powered exciting Google initiative in Ukraine! It is called Solve for X and is a project of a mysterious division Google [x] Lab, (which is at the moment a separate project in the Alphabet holding). Would you like to join the global projects changing the world? - Solve for X is the answer!</br></br>Learn about the first Ukrainian experience and find out how to participate in a Moonshot Sprint in your city.</br></br>The brave and creative - we are looking for you!",
+    "speakers": [24],
+    "language": "uk",
+    "complexity": "Beginner",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Community"
+    ]
+  },
+  {
+    "id": 127,
+    "title": "Mobile Advertising : How to make ECPM work for you :)",
+    "description": "How to make ECPM work for you. ",
+    "speakers": [23],
+    "language": "FR",
+    "complexity": "Beginner",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Mobile","Android","Advertising","marketing"
+    ]
+  },
+  {
+    "id": 128,
+    "title": "Material Design in Games",
+    "description": "1. Why people play the games?<br/>2. Games in Material Design<br/>3. Developing of character <br/>4. Why Material Design is actual today?",
+    "speakers": [26],
+    "language": "ru",
+    "complexity": "Beginner",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Community",
+        "Material Design"
+    ]
+  },
+  {
+    "id": 129,
+    "title": "How to succeed in the kids and family mobile app space",
+    "description": "Learn how successful kids and family app developers understand and engage their audiences, and how you can design high-quality apps just for this group. You'll also get practical tips to help you boost your reach, retention or revenue.",
+    "speakers": [27],
+    "language": "ru",
+    "complexity": "Beginner",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Community",
+        "Play Store"
+    ]
+  } ,
+  {
+    "id": 132,
+    "title": "Women cracking the code",
+    "description": "For last several years the number of girls in IT sphere is actively increasing. In general girls in IT is not a myth, but still number of girls working as software developers, having original ideas or creating own startups is a tiny. Probably the reason is that profession of software developer requires a set of specific analytical skills, creative approach to any problems and ability to lifelong learn. During the talk we will discuss how to improve listed qualities and make a successful career in IT.",
+    "speakers": [16],
+    "language": "uk",
+    "complexity": "Beginner",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Community"
+    ]
+  },
+  {
+    "id": 133,
+    "title": "RxJava for Android",
+    "description": "Presentation de la librairie Equilibre , RxJava et Retrolambda pour developper des applications Android Reactive pendant un livecode",
+    "speakers": [28],
+    "language": "FR",
+    "complexity": "Beginner",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Android",
+        "RxJava"
+    ]
+  },
+  {
+    "id": 134,
+    "title": "Virtual reality with your cardboard",
+    "description": "Montrer la réalité virtuelle sous un autre angle et faire ressortir son accessibilité à tous.",
+    "speakers": [29],
+    "language": "FR",
+    "complexity": "Beginner",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Android",
+        "Marshmallow","Cardboard"
+    ]
+  },
+  {
+    "id": 135,
+    "title": "Functional Programming in Scala.",
+    "description": "",
+    "speakers": [30],
+    "language": "FR",
+    "complexity": "Intermediate",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "scala",
+        "functional programing"
+    ]
+  },
+  {
+    "id": 137,
+    "title": "How to become a Google Developer Expert",
+    "description": "TBD",
+    "speakers": [10],
+    "language": "uk",
+    "complexity": "Beginner",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Community"
+    ]
+  },
+  {
+    "id": 138,
+    "title": "Frogans technology",
+    "description": "Présentation de la technologie frogans",
+    "speakers": [31],
+    "language": "FR",
+    "complexity": "Beginner",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "web","html"
+    ]
+  },
+  {
+    "id": 139,
+    "title": "HR sessions",
+    "language": "uk",
+    "complexity": "Beginner",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Community"
+    ]
+  },
+  {
+    "id": 140,
+    "title": "Fireside Chat",
+    "description": "In this informal session we would like to sit by the virtual fireplace and give you the possibility to ask any question to various speakers and sponsors on the fireside panel. If we are just staring at each other the moderator will put an extra woodblock on the fire by posing a taunting statement with the intention to heat up the discussion to a passionate debate. We give away great swag for people contributing to a great conversation.",
+    "language": "FR",
+    "complexity": "Beginner",
+    "presentation": "",
+    "video": "",
+    "tags": [
+        "Web"
+    ]
+  }
+]

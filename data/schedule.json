@@ -1,0 +1,125 @@
+[{
+    "date": "2015-12-19",
+    "dateReadable": "19 Décembre",
+    "tracks": [{
+        "title": "Grande salle"
+    }, {
+        "title": "salle 1, workshop"
+    }, {
+        "title": "salle 2, workshop"
+    }, {
+        "title": "salle 3, workshop"
+    }],
+    "timeslots": [{
+        "startTime": "08:30",
+        "endTime": "9:30",
+        "sessions": [
+            [1001]
+        ]
+    }, {
+        "startTime": "09:30",
+        "endTime": "9:45",
+        "sessions": [
+            [1005]
+        ]
+    }, {
+        "startTime": "9:45",
+        "endTime": "10:15",
+        "sessions": [
+            [125]
+        ]
+    },{
+        "startTime": "10:15",
+        "endTime": "10:45",
+        "sessions": [
+            [133]
+        ]
+    },{
+        "startTime": "10:45",
+        "endTime": "11:05",
+        "sessions": [
+            [112]
+        ]
+    }, {
+        "startTime": "11:05",
+        "endTime": "11:25",
+        "sessions": [
+            [109]
+        ]
+    }, {
+        "startTime": "11:25",
+        "endTime": "11:45",
+        "sessions": [
+            [116]
+        ]
+    }, {
+        "startTime": "11:45",
+        "endTime": "12:05",
+        "sessions": [
+            [127]
+        ]
+    }, {
+        "startTime": "12:05",
+        "endTime": "12:25",
+        "sessions": [
+            [118]
+        ]
+    }, {
+        "startTime": "12:25",
+        "endTime": "12:55",
+        "sessions": [
+            [115]
+        ]
+    }, {
+        "startTime": "13:00",
+        "endTime": "13:20",
+        "sessions": [
+            [117]
+        ]
+    }, {
+        "startTime": "13:20",
+        "endTime": "14:20",
+        "sessions": [
+            [1002]
+        ]
+    }, {
+        "startTime": "14:20",
+        "endTime": "14:40",
+        "sessions": [
+            [101]
+        ]
+    }, {
+        "startTime": "14:40",
+        "endTime": "15:40",
+        "sessions": [
+            [113],
+            [124],
+	    [135],[103]
+        ]
+    } , {
+        "startTime": "15:45",
+        "endTime": "17:15",
+        "sessions": [
+            [102],
+            [106], [138],[134]
+        ]
+    }, {
+        "startTime": "17:15",
+        "endTime": "17:45",
+        "sessions": [
+            [1007]
+        ]
+    }, {
+        "startTime": "18:00",
+        "endTime": "18:30",
+        "sessions": [
+            [1003]
+        ]
+    }, {
+        "startTime": "19:00",
+        "endTime": "02:00",
+        "sessions": [
+            [1006]
+        ]
+    }]
+}]

@@ -1,0 +1,43 @@
+[{
+    "title": "Sponsor principal",
+    "logos": [{
+        "name": "Google",
+        "url": "https://www.google.com.ua/intl/en/about/",
+        "logoUrl": "../images/partners/google.svg"
+    }]
+}, {
+    "title": "Communautés GDG organisatrices",
+    "logos": [{
+        "name": "GDG Abidjan",
+        "logoUrl": "../images/partners/gdg_abj.png"
+    },{
+        "name": "GDG Agitel",
+        "logoUrl": "../images/partners/gdg_agitel.png"
+    },{
+        "name": "GDG MIAGE GI",
+        "logoUrl": "../images/partners/gdg_miage.jpg"
+    }]
+}, {
+    "title": "Communautés et Entreprises Partenaires",
+    "logos": [{
+        "name": "Ovillage",
+        "url": "http://ovillage.ci/",
+        "logoUrl": "../images/partners/ovillage.png"
+    },{
+        "name": "Akendewa",
+        "url": "http://akendewa.org/",
+        "logoUrl": "../images/partners/logo_akendewa.jpg"
+    },{
+        "name": "Ayiyikoh",
+        "url": "",
+        "logoUrl": "../images/partners/ayiyikoh.jpg"
+    },{
+        "name": "Symbiose Group",
+        "url": "",
+        "logoUrl": "../images/partners/awebsi_logo.png"
+    },{
+        "name": "Université cerco",
+        "url": "http://www.groupecerco.com/bj/",
+        "logoUrl": "../images/partners/cerco.jpg"
+    }]
+}]

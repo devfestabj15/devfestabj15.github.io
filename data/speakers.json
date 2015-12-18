@@ -1,0 +1,225 @@
+[{
+    "id": 23,
+    "featured": true,
+    "name": "Séti Afanou",
+    "title": "Android Developer certifié par Google",
+    "company": "Digital Inspiration",
+    "country": "Togo",
+    "photoUrl": "../../images/people/seti_afanou.jpg",
+    "bio": "Seti is a CEO and founder of Digital Inspiration, an mobile and java apps development startup in Lome, he is also an Android applications development consultant-trainer at YekoLab Brazzaville, organizer of GDG Lome (the Google developers Group of Lome) and technical Lead of JCertif , he is a passionate and enthusiast Java / Android developer, evangelist certified by Google. 😉",
+    "tags": ["android","firebase"],
+    "socials": [{
+        "name": "Google+",
+        "icon": "app-icons:gplus",
+        "link": "https://plus.google.com/+DawidOstrowski/"
+    }]
+}, {
+    "id": 9,
+    "featured": true,
+    "name": "Marie-Colombe TRA LOU",
+    "title": "Développeur d'applications",
+    "company": "Women Techmakers",
+    "country": "Côte d'Ivoire",
+    "photoUrl": "../../images/people/marie_colombe.jpg",
+    "bio": "",
+    "badges": [{
+        "name": "Women Techmakers",
+        "description": "Women Techmakers powered by Google Developers Group MIAGE GI"
+    }],
+    "tags": ["mobile", "IoT"]
+}, {
+    "id": 15,
+    "featured": true,
+    "name": "Éric Zilé Kouassi",
+    "title": "Ingénieur études et développement",
+    "company": "Sydeem girafe",
+    "country": "Côte d'Ivoire",
+    "photoUrl": "../../images/people/eric_zile.jpg",
+    "bio": " ",
+    "tags": ["Web", "Polymer"],
+    "badges": [{
+        "name": "GDG",
+        "description": "Google Developers Group MIAGE GI"
+    }]
+}, {
+    "id": 14,
+    "name": "Komi Serge Innocent",
+    "featured": true,
+    "title": "Développeur java",
+    "company": "Objis CI",
+    "country": "Côte d'Ivoire",
+    "photoUrl": "../../images/people/komi_serge.jpg",
+    "bio": "",
+    "tags": ["Web", "AngularJS","spring-boot","java"],
+    "badges": [ {
+        "name": "GDG",
+        "description": "Google Developers Group MIAGE GI"
+    }]
+}, {
+    "id": 11,
+    "featured": false,
+    "name": "Montrésor Kouassi",
+    "title": "Co-fondateur de StarTIC",
+    "company": "Ovillage",
+    "country": "Côte d'Ivoire",
+    "photoUrl": "../../images/people/mon_treso.jpg",
+    "bio": "Co-fondateur de StarTIC | Ingénierie des Systèmes d'Information et Conduite de Projets Informatiques | Passionnés des TIC | Logiciels libres | Ubuntu | Jerry",
+    "tags": ["Entrepreneuriat"],
+    "socials": [{
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/montresorkonan"
+    }]
+}, {
+    "id": 1,
+    "featured": false,
+    "name": "Konan Raphael N'GUESSAN",
+    "title": "Mobile Coder",
+    "company": "",
+    "country": "Côte d'Ivoire",
+    "photoUrl": "../../images/people/raph_konan.jpeg",
+    "bio": "",
+    "tags": ["IoT", "Mobile","robotique"],
+    "badges": [{
+        "name": "GDG",
+        "description": "Google Developers Group INPHB"
+    }],
+    "socials": [{
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/raphaelkonan40"
+    }]
+}, {
+    "id": 2,
+    "featured": false,
+    "name": "Soungalo Cyrille KAWELE",
+    "title": "",
+    "company": "",
+    "country": "Côte d'Ivoire",
+    "photoUrl": "../../images/people/kwale.jpeg",
+    "bio": "",
+    "tags": ["IoT", "Mobile","robotique"],
+    "badges": [ {
+        "name": "GDG",
+        "description": "Google Developers Group INPHB"
+    }],
+    "socials": [ {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/escakase"
+    }]
+}, {
+    "id": 19,
+    "featured": false,
+    "name": "Moussa Doumbia",
+    "title": "",
+    "company": "",
+    "country": "Côte d'Ivoire",
+    "photoUrl": "../../images/people/doumbia.jpg",
+    "bio": "",
+    "tags": ["web", "mobile"],
+    "badges": [{
+        "name": "GDG",
+        "description": "Google Developers Group Bassam",
+        "link": "https://developers.google.com/groups/chapter/105591078626334574818/"
+    }]
+}, {
+    "id": 17,
+    "name": "Welly Arnold KOUYA",
+    "title": "Développeur Backend PHP & Mobile ",
+    "company": "",
+    "country": "côte d'Ivoire",
+    "photoUrl": "../../images/people/arnold_kouya.png",
+    "bio": "Développeur Backend PHP & Mobile Entrepreneur Web Formateur en TIC Manager Wordpress Cote d'Ivoire",
+    "tags": ["entrepreneuriat","mobile"],
+    "socials": [{
+        "name": "Google+",
+        "icon": "app-icons:gplus",
+        "link": "https://plus.google.com/+AnnaKurilo/"
+    }, {
+        "name": "LinkedIn",
+        "icon": "app-icons:linkedin",
+        "link": "https://ua.linkedin.com/in/bluebirrrrd"
+    }, {
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/bluebirrrrd"
+    }, {
+        "name": "Facebook",
+        "icon": "app-icons:facebook",
+        "link": "https://www.facebook.com/annakurylo21"
+    }]
+}, {
+    "id": 18,
+    "name": "Dioulo Etser Emmanuel KANGO",
+    "title": "Google Student Ambassador",
+    "company": "",
+    "country": "Côte d'Ivoire",
+    "photoUrl": "../../images/people/kano.jpeg",
+    "bio": "",
+    "tags": ["adsense", "marketing","adwords"],
+    "socials": [{
+        "name": "Twitter",
+        "icon": "app-icons:twitter",
+        "link": "https://twitter.com/thewinnaking"
+    }]
+}, {
+    "id": 28,
+    "name": "Ange Bagui",
+    "title": "Senior Android Developer",
+    "company": "",
+    "country": "Côte d'Ivoire",
+    "photoUrl": "../../images/people/ange_bagui.jpg",
+    "bio": "",
+    "badges": [{
+        "name": "GDG",
+        "description": "Google Developers Group MIAGE GI"
+    }],
+    "tags": ["Android", "RxJava"]
+}, {
+    "id": 29,
+    "featured": true,
+    "name": "Audrey Ehouman",
+    "title": "",
+    "company": "Women Techmakers,JCertif international,Akendewa",
+    "country": "Côte d'Ivoire",
+    "photoUrl": "../../images/people/audrey_ehoum.jpg",
+    "bio": "",
+    "badges": [{
+        "name": "Women Techmakers",
+        "description": "Women Techmakers powered by Google Developers Group MIAGE GI"
+    }],
+    "tags": ["virtual reality", "Android", "CardBoard"]
+}, {
+    "id": 30,
+    "featured": true,
+    "name": "Philippe Kouao",
+    "title": "",
+    "company": "Py Tehnologies",
+    "country": "Côte d'Ivoire",
+    "photoUrl": "../../images/people/kouao.jpg",
+    "bio": "",
+    "badges": [{
+        "name": "Expert java",
+        "description": ""
+    }],
+    "tags": ["java", "scala", "functional programming"]
+}, {
+    "id": 31,
+    "name": "Amara Al Moubarak Cisse ",
+    "title": "",
+    "company": "Ovillage",
+    "country": "Côte d'Ivoire",
+    "photoUrl": "../../images/people/moubarak.jpg",
+    "bio": "",
+    "tags": ["web", "html", "frogans"]
+}, {
+    "id": 32,
+    "name": "Beugré Loulou De Gueyo",
+    "title": "",
+    "company": "Ayiyikoh",
+    "country": "Côte d'Ivoire",
+    "photoUrl": "../../images/people/beugre.jpg",
+    "bio": "",
+    "tags": ["Iot", "arduino", "robotique"]
+}]

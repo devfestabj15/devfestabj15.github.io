@@ -1,0 +1,73 @@
+<dom-module id="map-block">
+    <template>
+        <style>
+            :host {
+                display: block;
+                padding: 100px 0;
+                position: relative;
+                overflow: hidden;
+                min-height: 300px;
+            }
+
+            h4 {
+                font-size: 32px;
+            }
+
+            .location-card {
+                min-width: 400px;
+            }
+
+            .bottom-link {
+                color: inherit;
+            }
+
+            @media (min-width: 601px) {
+                .card-container {
+                    padding: 0;
+                }
+                .card-container h5 {
+                    margin-top: 0;
+                }
+            }
+            .bottom-link {
+                color: inherit;
+            }
+        </style>
+        <google-map class="fit" zoom="15" latitude="5.3760333" longitude="-3.9955025" >
+            <google-map-marker latitude="5.3760333" longitude="-3.9955025"></google-map-marker>
+        </google-map>
+
+    </template>
+</dom-module>
+
+<script>
+    Polymer({
+        is: 'map-block',
+        properties: {
+            options: String
+        },
+        attached: function() {
+            this.options = [{
+                stylers: [{
+                    'lightness': 40
+                }, {
+                    'visibility': 'on'
+                }, {
+                    'gamma': 0.9
+                }, {
+                    'weight': 0.4
+                }]
+            }, {
+                'elementType': 'labels',
+                'stylers': [{
+                    'visibility': 'on'
+                }]
+            }, {
+                'featureType': 'water',
+                'stylers': [{
+                    'color': '#5dc7ff'
+                }]
+            }];
+        }
+    });
+</script>
